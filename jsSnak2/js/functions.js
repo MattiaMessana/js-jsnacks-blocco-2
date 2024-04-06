@@ -1,8 +1,14 @@
 /**
- * Description verificare se le due parole hanno la stessa lunghezza 
- * @returns {string}
+ * Description
+ * @param {} arrey
+ * @param {} elem 
+ * @returns {i} se è all'interno restituisce la posizione altrimenti restituisce -1
  */
-function wordLenght () {
-    
-    
+function trovaIndice(arrey, elem) {
+    for (let i = 0; i < arrey.length; i++) {
+        if (elem === arrey[i]) {
+            return i
+        }
+    }
+    return -1 ;
 }

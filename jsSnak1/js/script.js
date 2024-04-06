@@ -1,9 +1,12 @@
-// Fai inserire un numero, che chiameremo N, all’utente.
-// Genera N array, ognuno formato da 10 numeri casuali tra 1 e 100.
-// Ogni volta che ne crei uno, stampalo a schermo.
+// scrivere una funzione contaElementi()
+// dato un array in input
+// restituisca il numero di elementi presenti nell'array
 
-// tramite pormpt chiediamo un numero all'utente 
-const N = parseInt(prompt("dimmi un numero"));
-console.log(N);
+//1. creiamo  arrey con degli elementi all'interno
+const listClassA = ['paolo', 'luca', 'giuseppe', 'franco'];
+const listClassB = ['paolo', 'luca', 'giuseppe', 'franco', 'Claudio','Giovanni'];
 
-// creiamo un ciclo for che ogni volta che viene generato un arrey lo stampi in pagina
+//2. utilizzando la funzione contiamo gli elementi
+contaElementi(listClassA);
+contaElementi(listClassB);
+

@@ -1,11 +1,10 @@
-// creiamo una funzione che generi n arrey (n = numero utente)
+//creiamo una funziona che conti gli elementi all'interno dell'arrey 
 /**
- * Description
- * @returns {any}
+ * Description dato un arrey dobbiamo contare quanti elementi ci sono all'iterno
+ * @param {Array} listClass 
+ * @returns {number} numero di elementi presenti all'interno dell'arrey
  */
-function generateArrey () {
 
- };
-
-
-//3. creiamo una funzione che in ogni arrey inserisca 10 numeri casuali tra 1 e 100
+function contaElementi(listClass) {
+    return console.log(listClass.length);  
+};
